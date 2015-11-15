@@ -1,0 +1,451 @@
+
+						/*HEADER*/
+header {
+display: block;
+background: url("img/BG_header.jpg");
+width:1922px;
+height:418px;
+position:relative;
+margin-top: -15px;
+margin-left:-11px;
+
+}
+
+div.title {
+display: block;
+width: 967px;
+height: 100px;
+position: relative;
+margin: 0px auto;
+background-color: rgba(0, 0, 0, 0.72);
+z-index: 1;
+}
+
+div.slider {
+width: 962px;
+height: 408px;
+position: relative;
+margin: -91px auto;
+display: block;
+z-index: 0;
+/*box-shadow: 0 0 100px 50px rgba(0, 0, 0, 1.0);*/
+}
+
+div.title img.logo {
+position: relative;
+top: 9px;
+left: 19px;
+display: block;
+width: 123px;
+height: 83px;
+}
+
+div.title div.h1 {
+display: block;
+font-family: "Segoe Script", sans-serif;
+font-size: 30px;
+color: white;
+position: relative;
+top:-50px;
+left: 214px;
+}
+
+div div.header_contact {
+position: relative;
+top: -142px;
+left: 607px;
+white-space: pre;
+font-family: Georgia, sans-serif;
+font-weight: bold;
+font-style: italic; 
+color: white;
+line-height: 26px;
+}
+
+.header_contact  span:nth-child(2n-1){
+font-size: 16px;
+}
+
+.header_contact  span:nth-child(2n){
+font-size: 14px;
+font-weight: 300;
+}
+
+.horiz_menu {
+position:relative;
+top: -242px;
+left: 440px;
+list-style:none;
+font-family: Tahoma, sans-serif;
+font-weight: 300;
+font-size: 16px;
+}
+
+header .horiz_menu li {
+display: table-cell;
+width: 161px;
+height: 43px;
+background-color: rgba(0, 0, 0, .44);
+margin-right: -5px;
+text-align: center;
+vertical-align: middle;
+}
+
+header .horiz_menu>li:first-child {
+width: 129px;
+}
+
+header .horiz_menu>li:nth-child(2) {
+width: 187px;
+}
+
+header .horiz_menu>li:last-child {
+width:163px;
+}
+
+.horiz_menu>li:hover {
+background-color: rgba(55, 0, 11, .77);
+}
+
+header .horiz_menu menu {
+position: absolute;
+top: 29px;
+left: 129px;
+display: none;
+}
+
+header .horiz_menu>li:hover menu{
+display: block;
+}
+
+header .horiz_menu menu li {
+display: block;
+height: 25px;
+width: 187px;
+background-color: rgba(68, 0, 13, .57);
+font-size: 14px;
+text-align: left;
+padding-left: 10px;
+padding-top: 5px;
+box-sizing: border-box;
+}
+
+a {
+text-decoration: none;
+font-family: Tahoma, sans-serif;
+font-weight: bold;
+font-size: 15px;
+color: white;
+}
+
+					/*CONTENT*/
+div.main {
+display: block;
+width: 600px;
+height: 1400px;
+position: relative;
+top: 30px;
+left: 650px;
+}
+
+span:first-child {
+position: relative;
+top:-2px;
+left: 13px;
+}
+
+h1 {
+position: relative;
+top: 7px;
+left: 12px;
+color: rgb(105, 0, 0);
+font-weight: bold;
+font: Tahoma, sans-serif;
+font-size: 16px; /*wtf? поставь пробел между 16 и pt */
+}
+
+p {
+display: block;
+width:580px;
+white-space: pre-line;
+position: relative;
+top: 9px;
+left: 12px;
+font-family: Tahoma, sans-serif;
+font-size: 14px;
+} 
+
+div.main .section_name:first-child {
+position:relative;
+top: -31px;
+left: 130px;
+}
+
+p:nth-child(2) {
+font-family: Tahoma, sans-serif;
+font-size: 14px;
+position: relative;
+top: -37px;
+left: -52px;
+white-space: pre;
+}
+
+.main .first_pic {
+position: relative;
+top: 17px;
+left: 20px;
+}
+
+.stones {
+margin: 6px;
+width: 132px;
+}
+
+.catalog_photo {
+position: relative;
+top: -58px;
+left: 9px;
+}
+
+.stones, .photo {
+display: inline-block;
+}
+
+.stones .section_name {
+text-align: center;
+position: relative;
+top: 4px;
+}
+
+.podpis {
+position: relative;
+top: -4px;
+left: -3px;
+font-family: Tahoma;
+font-size: 12px;
+text-decoration: underline;
+white-space: pre-line;
+text-align: center; 
+}
+
+.podpis span.section_name {
+text-decoration: none;
+}
+
+/*portfolio*/
+.photo {
+height: 153px;
+width: 180px;
+margin: 5px;
+text-align: center;
+font-family: Tahoma, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+
+.portfolio p.section_name {
+position: relative;
+top: -86px;
+left: 133px;
+font-family: Tahoma, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+
+.portfolio  .img_portfolio{
+position: relative;
+top: -30px;
+left: 30px;
+}
+
+.portfolio .opis {
+position: relative: ;
+top: -95px;
+left: ;
+font-family: Tahoma, sans-serif;
+font-size: 14px;
+}
+
+.our_product {
+position: relative;
+top: -100px;
+left: 5px;
+}
+
+
+
+
+					/*SIDE_bar*/
+
+.left_side {
+display: block;
+position: relative;
+top: -1370px;
+left: 488px;
+}
+
+.right_side {
+display: block;
+position: relative;
+top: 0px;
+}					
+
+
+menu {
+list-style: none;
+font-family: Tahoma, sans-serif;
+font-weight: normal;
+font-size: 14px;
+}
+
+.katalog {
+position: relative;
+top: -8px;
+left: -38px;}
+
+.katalog .we_have {
+position: relative;
+top: -14px;
+left: -26px;
+}
+
+div.left_side div:nth-child(3) {
+position: relative;
+top: -17px;
+left: -0px;
+}
+
+menu.services {
+display: block;
+width: 150px;
+position: relative;
+top: -23px;
+left: -38px;
+}
+
+div.left_side div:nth-child(5) {
+position: relative;
+white-space: pre-line;
+top: -21px;
+left: 1px:
+}
+
+menu.care_prod {
+display: block;
+width: 150px;
+position: relative;
+top: -27px;
+left: -38px;
+}
+
+aside.left .section_name:nth-child(7){
+position: relative;
+top: -25px;
+left: 0px;
+}
+
+menu.tools {
+display: block;
+width: 150px;
+position: relative;
+top: -31px;
+left: -38px;
+white-space: ;
+}
+
+aside.right {
+display: block;
+position: relative;
+width: 150px;
+height: ;
+top: -2335px;
+left: 1255px;
+}
+
+button.calculate {
+font-family: Tahoma, sans-serif;
+font-size: 16px;
+font-weight: bold;
+color: white;
+width: 160px;
+height: 51px;
+background-image: -webkit-linear-gradient(bottom, #420000, #710000);
+border: none;
+border-radius: 3px;
+display: block;
+}
+
+					
+											/*FOOTER*/
+footer {
+display: block;
+width:1920px;
+height:418px;
+position:relative;
+margin-top: -1375px;
+background: url("img/BG_futer.jpg");
+background-repeat: no-repeat;
+}									
+
+.Futer_icon {
+width: 214px;
+height: 143px;
+border: 2px, solid, white;
+position: relative;
+top: 6px;
+left: 456px;
+}		
+
+div.copyright, div.adress_1, div.adress_2  {
+display: inline-block;
+white-space: pre;
+color: white;
+font-family: Tahoma ,sans-serif;
+font-size: 12px;
+position: relative;
+top: 17px;
+left: -50px;
+margin-left: 20px;
+}
+
+									
+footer span{
+position: relative;
+top: -115px;
+left: 406px;
+text-align: center;
+color: white;
+font-family: "Tahoma", sans-serif;
+font-size: 14px;
+font-weight: bold;
+}				
+
+img.logo_ITME {
+position: relative;
+top: -70px;
+left: 1040px;
+}
+
+img.Schetchiki {
+position: relative;
+top: 18px;
+left: 1020px;
+}
+
+img.Schetchiki2 {
+position: relative;
+top:-40px;
+left: 840px;
+}			
+											/*COMMON*/
+body {
+width: 1920px;
+height: 2000px;
+}											
+.section_name {
+color: rgb(105, 0, 0);
+font-weight: bold;
+font-family: Tahoma, sans-serif;
+font-size: 16px;
+text-decoration: none;
+}
